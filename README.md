@@ -2,7 +2,7 @@
 Trying out WinForms in python through clr under the pretext of making an 'anime tracker'.<br><br>
 ![preview](preview.png)
 <br><br>
-As you may have noticed, it's about as useful as a glorified text document containing your watchlist - which is because it's supposed to be my test drive of WinForms in python through clr more than anything else.
+As you may have noticed, <b>it's about as useful as a glorified text document containing your watchlist</b> - which is because it's supposed to be my test drive of WinForms in python through clr more than anything else.
 By the way - notice that sweet acrylic - that part of the code is adapted from this [qtacrylic](https://github.com/nullex86/qtacrylic) repo.<br><br>
 Don't expect it to:
 - Read you the newspaper
