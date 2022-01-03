@@ -79,7 +79,7 @@ def download_file(url,name='temp.tmp'):
     r = requests.get(url, allow_redirects=True)
     open(name,'wb').write(r.content)
 
-def onedrive_downurl(onedrive_link):
+def onedrive_downurl(onedrive_link): #Ha, something i forgot to implement!
     data_bytes64 = base64.b64encode(bytes(onedrive_link, 'utf-8'))
     data_bytes64_String = data_bytes64.decode('utf-8').replace('/','_').replace('+','-').rstrip("=")
     resultUrl = f"https://api.onedrive.com/v1.0/shares/u!{data_bytes64_String}/root/content"
@@ -628,7 +628,7 @@ class Window(Form):
         p.CloseFigure()
         oj.Region = Region(p)
 
-    def draw_shadow(self,control,colorstart,colorend):
+    def draw_shadow(self,control,colorstart,colorend): #Aha!, another thing i forgot to implement, but this time entirely
         pass
                 
     def get_hwnd(self):
