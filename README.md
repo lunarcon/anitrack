@@ -8,5 +8,6 @@ Don't expect it to:
 - Read you the newspaper
 - Do anything useful other than adding\removing anime in a json file
 - Be customizable (that i'll add later, of course)
+- Be bug-free (it's got a few and i aint fixing em)
 
 Anime Data is fetched from [api.jikan.moe](https://api.jikan.moe)
