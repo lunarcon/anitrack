@@ -3,7 +3,6 @@ import clr,base64
 from ctypes import POINTER, c_bool, sizeof, windll, pointer, c_int
 from ctypes.wintypes import DWORD,ULONG
 from ctypes import Structure
-
 from enum import Enum
 
 clr.AddReference("System.Drawing")
@@ -569,7 +568,7 @@ class Window(Form):
    
         sender.Text=str(sender.Tag).split(',')[0]
 
-    def DarkenImage(self,img,value):
+    def DarkenImage(self,img,value): #dont ask, this flew over my head
         myImg=Image.FromFile(img)
         newImg = Image.FromHbitmap(myImg.GetHbitmap())
         g = Graphics.FromImage(newImg)
