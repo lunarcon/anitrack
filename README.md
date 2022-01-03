@@ -10,4 +10,9 @@ Don't expect it to:
 - Be customizable (that i'll add later, of course)
 - Be bug-free (it's got a few and i aint fixing em)
 
+What it can do Right Now
+- Add and remove anime to 'Your List'
+- Search for Anime in your list and online
+- Open the MAL page of the Anime you click on
+
 Anime Data is fetched from [api.jikan.moe](https://api.jikan.moe)
