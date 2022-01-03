@@ -654,6 +654,8 @@ def main():
         os.mkdir(os.path.join(MY_PATH,'data'))
         os.mkdir(os.path.join(MY_PATH,'data','cache'))
         os.mkdir(os.path.join(MY_PATH,'data','images'))
+        with open(ANIME,'w') as j:
+            j.write('')  
     Application.EnableVisualStyles()
     Application.Run(Window())
 
